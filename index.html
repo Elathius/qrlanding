@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2W1RFNLFN"></script>
@@ -10,17 +10,36 @@
 
   gtag('config', 'G-H2W1RFNLFN');
 </script>
-  <meta charset="UTF-8" />
-  <title>Hello, world!</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel="icon" href="favicon.png">
+<style>
+@keyframes reveal-button {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.button {
+  opacity: 0; 
+  animation-name: reveal-button;
+  animation-duration: 1s; 
+  animation-fill-mode: forwards;
+  animation-delay: 7s; 
+}
+</style>
 </head>
 <body>
- and so it begins! From that little QR that piqued your interest, here we are now.
+and so it begins! From that little QR that piqued your interest, here we are now. What would you like to know about me?
+<br><br>
+I aleady have access to your microphone ;), simply say the word "Resume" or "Portfolio".
+<br><br>
 
-What would you like to know about me?
+<form class="button" action="https://arham.khaishagi.me">
+    <input type="submit" value="Just kidding! Did i get you? Click here to go to my website" />
+</form>
+
+
 </body>
 </html>
-
 
